@@ -1,0 +1,25 @@
+create database netflix;
+use netflix;
+
+create table assinantes(
+
+id int primary key not null auto_increment,
+email varchar(50) not null unique,
+senha varchar(25) not null,
+nome varchar(50) not null,
+telefone varchar(11) not null,
+cpf varchar(11) not null unique,
+plano varchar(8)
+
+);
+
+
+select * from assinantes;
+
+INSERT INTO assinantes(nome,telefone,email,cpf,senha) VALUES ('Breno Martins de Souza', '11949428188','brenooo@gmail.com','12854628599','xd12345');
+
+UPDATE assinantes SET plano = 'deluxe' WHERE id=1;
+
+DELETE FROM assinantes WHERE id='12';
+
+SELECT plano FROM assinantes WHERE email = "brenomartins880@gmail.com";
