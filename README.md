@@ -1,7 +1,7 @@
 # 📺 Site-Netflix
 
 Projeto criado no **1° ano do Ensino Médio Técnico em Informática**, inspirado na interface da Netflix.
-Foi desenvolvido por **Breno Martins de Souza** e **Daniel de Jesus Leal** com foco em prática e aprendizado inicial de desenvolvimento web.
+Foi desenvolvido por mim, **Breno Martins de Souza** e  meu colega **Daniel de Jesus Leal** com foco em prática e aprendizado inicial de desenvolvimento web.
 
 > **Atenção:** Todos os direitos referentes a Netflix, filmes e séries utilizados pertencem aos seus respectivos donos.  
 > Este projeto foi feito apenas para estudo.
