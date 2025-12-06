@@ -28,7 +28,10 @@
   <?php 
   
     require_once "config.php";
-  
+    // Turn off all error reporting
+error_reporting(0);
+// Hide errors from the display, but they can still be logged (see below)
+ini_set('display_errors', 'Off');
   ?>
 
     <header>

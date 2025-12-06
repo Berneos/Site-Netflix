@@ -2,14 +2,7 @@
 <html lang="pt-br">
   <head>
   <?php
-              // Iniciar sessão
-              session_start();
-              
-              // Checar se usuário está logado, se não estiver, redirecionar para tela de login
-              if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-                  header("location: login.php");
-                  exit;
-              }
+      
       ?>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">

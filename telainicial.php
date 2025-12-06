@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-      <?php
-              // Iniciar sessão
-              session_start();
-              
-              // Checar se usuário está logado, se não estiver, redirecionar para tela de login
-              if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-                  header("location: login.php");
-                  exit;
-              }
-      ?>
+      
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -63,7 +54,7 @@
 
       }
 
-      .fillmes {`
+      .fillmes {
       
         width: 400px;
         height:200px;
